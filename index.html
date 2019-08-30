@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Emotion Reader</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/icon" />
+    <link rel="icon" href="favicon.ico" type="image/icon" />
+  </head>
+  <body onload="main()">
+    <div class="container">
+      <h1>Emotion Reader</h1>
+      <canvas id="canvas" class="canvas" width="400"></canvas>
+      <div id="displacement"></div>
+
+      <div id="emotion">
+        <div id="emotion-anger">
+          <img src="assets/icons/angry.png" alt="" />
+        </div>
+        <div id="emotion-fear">
+          <img src="assets/icons/fear.png" alt="" />
+        </div>
+        <div id="emotion-happy">
+          <img src="assets/icons/happy.png" alt="" />
+        </div>
+        <div id="emotion-sad">
+          <img src="assets/icons/sad.png" alt="" />
+        </div>
+        <div id="emotion-surprise">
+          <img src="assets/icons/surprise.png" alt="" />
+        </div>
+      </div>
+      <footer>
+        <div>
+          <a href="https://ko-fi.com/dinodroid">
+            <img src="https://ko-fi.com/img/Kofi_Logo_Blue.svg" height="30"
+          /></a>
+        </div>
+        <div>
+          Made with <i style="color:red">&#9829;</i> by dinodroid using
+          <a href="https://jeeliz.com/">
+            <img
+              src="https://jeeliz.com/wp-content/uploads/2018/01/LOGO_JEELIZ_BLUE.png"
+              height="22"
+          /></a>
+        </div>
+      </footer>
+    </div>
+    <script src="assets/js/jeelizFaceTransfer.js"></script>
+    <script src="assets/js/emotion.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
