@@ -10,7 +10,7 @@ let displacement = 9999;
 function main() {
   JEEFACETRANSFERAPI.init({
     canvasId: "canvas",
-    NNCpath: "assets/model/",
+    NNCpath: "src/model/",
     callbackReady: function(errCode) {
       if (errCode) {
         console.log(
